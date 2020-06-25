@@ -1,0 +1,17 @@
+.miHeader {
+  background-image: url(https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(70%);
+  height: 600px; }
+  .miHeader .jumbotron {
+    background-color: rgba(0, 0, 0, 0.4); }
+
+.testimonio__img {
+  width: 150px;
+  height: 150px; }
+
+.nuestrosServicios img {
+  height: 250px;
+  width: 250px; }
