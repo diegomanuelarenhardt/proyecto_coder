@@ -6,15 +6,68 @@
 		<link rel="stylesheet" href="estilos.css/styles.css">
 	</head>
 	<body>
-		<nav>
-			<a href="index.html">Inicio</a>
-			<a href="contacto.html">Contacto</a>
-			<a href="quienesSomos.html">Nosotros</a>
-			<a href="nuestrosServicios.html">Servicios</a>
-			<a href="galeria.html">galeria</a>
-		</nav>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light align-items-end miNavbar">
+            <a href="index.html" class="navbar-brand mainNavbar__brand">
+                <img
+                    class="mainNavbar__miLogo"
+                    src="img/elAladinDeLaLimpieza.jpg"
+                    alt=""
+                    width="50"
+                    height="50"
+                    loading="lazy"
+                />
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#miNavbar__content"
+                aria-controls="miNavbar__content"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="miNavbar__content">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nuestrosServicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienesSomos.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+		<h2>en construccion</h2>
 		<hr>
 		<h1>Galeria</h1>
+		<footer class="miFooter bg-dark">
+            <div class="container text-center py-5">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <p class="text-light">Copyright &copy; 2020 Por Diego Manuel Arenhardt</p>
+                    </div>
+                    <div class="col-md-4">
+                        +543624121606 Julio A.Roca 3468 fontana: CHACO
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://www.facebook.com/DiegoManuelArenhardt/"
+                            ><img src="img/facebbok.png" width="50px" height="50px" alt="facebook"
+                        /></a>
+                        <a href="https://www.instagram.com/elAladinDeLaLimpieza"
+                            ><img src="img/instagram.png" width="30px" height="30px" alt="instagram"
+                        /></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
 		<img src="estilos.css/carpetaDeImagen/Sitiales.jpg"heght="100"width="100">
 		<img src="estilos.css/carpetaDeImagen/Colchones.jpg"heght="75"width="75">
 		<img src="estilos.css/carpetaDeImagen/Alfombras.jpg"heght="135"width="135">
