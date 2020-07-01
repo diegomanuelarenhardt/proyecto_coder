@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8">
-		<title>contacto</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-		<link rel="stylesheet" href="estilos.css/styles.css">
-	</head>
-	<body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light align-items-end miNavbar">
+    <head>
+        <meta charset="UTF-8" />
+        <title>contacto</title>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="estilos.css/styles.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light align-items-end miNavbar">
             <a href="index.html" class="navbar-brand mainNavbar__brand">
                 <img
                     class="mainNavbar__miLogo"
@@ -38,7 +43,7 @@
                         <a class="nav-link" href="nuestrosServicios.html">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="quienesSomos.html">Nosotros</a>
+                        <a class="nav-link" href="quienessomos.html">Nosotros</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="contacto.html">Contacto</a>
@@ -46,61 +51,78 @@
                 </ul>
             </div>
         </nav>
-		<div class="miFomulario">
-			<h1 class="pt-5">Contacto</h1>
-			<hr>
-			<div class="container-fluid py-5">
-			  <div class="row">
-				<div class="col-md-6 text-center">
-				  <!--   aqui va el mapa o cualquier info extra como tel, direccion, email     -->
-				  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3541.107823785051!2d-59.00897718468741!3d-27.43475022178622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450c73f67c804b%3A0x973c1c8f6b94269e!2sJulio%20Argentino%20Roca%203468%2C%20H3508ATH%20Resistencia%2C%20Chaco%2C%20Argentina!5e0!3m2!1sen!2scl!4v1593566392493!5m2!1sen!2scl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-				</div>
-				<div class="col-md-6">
-				  <form action="" class="container">
-					<div class="form-group">
-					  <!--           label form="nombre" input name="nombre" esos son lo que conecta una etiqueta con la otra -->
-					  <label for="nombre">Nombre:</label>
-					  <input type="text" name="nombre" class="form-control" placeholder="Nombre..." required>
-					</div>
-					<div class="form-group">
-					  <label for="apellido">Apellido:</label>
-					  <input type="text" name="apellido" class="form-control" placeholder="Apellido...">
-					</div>
-					<div class="miFormulario__locacion d-flex flex-wrap">
-					  <div class="form-group mx-1">
-						<label for="ciudad">Ciudad:</label>
-						<input type="text" name="ciudad" class="form-control" placeholder="Ciudad...">
-					  </div>
-					  <div class="form-group mx-1">
-						<label for="pais">Pais</label>
-						<select class="form-control" name="pais" id="pais">
-						  <option selected disabled value="">Eleccion...</option>
-						  <option>Argentina</option>
-						  <option>Brasil</option>
-						  <option>Chile</option>
-						  <option>Uruguay</option>
-						</select>
-					  </div>
-					  <div class="form-group mx-1">
-						<label for="codigoPostal"> Codigo Postal</label>
-						<input type="number" name="codigo postal..." class="form-control">
-					  </div>
-					</div>
-					<div class="form-group">
-					  <label for="email">Correo</label>
-					  <input type="mail" class="form-control" placeholder="tucorreo@mail.com" required>
-					</div>
-					<div class="form-group miFomulario__botones d-flex justify-content-end">
-					  <input type="reset" class="btn btn-secondary  btn-lg mr-3">
-					  <input type="submit" class="btn btn-primary btn-lg ">
-					</div>
-				  </form>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		  <!--footer-->
-		  <footer class="miFooter bg-dark">
+        <div class="miFomulario">
+            <h1 class="pt-5">Contacto</h1>
+            <hr />
+            <div class="container-fluid py-5">
+                <div class="row">
+                    <div class="col-md-6 text-center embed-responsive embed-responsive-4by3">
+                        <!--   aqui va el mapa o cualquier info extra como tel, direccion, email     -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3541.107823785051!2d-59.00897718468741!3d-27.43475022178622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450c73f67c804b%3A0x973c1c8f6b94269e!2sJulio%20Argentino%20Roca%203468%2C%20H3508ATH%20Resistencia%2C%20Chaco%2C%20Argentina!5e0!3m2!1sen!2scl!4v1593566392493!5m2!1sen!2scl"
+                            width="600"
+                            height="450"
+                            frameborder="0"
+                            style="border: 0;"
+                            allowfullscreen=""
+                            aria-hidden="false"
+							tabindex="0"
+							class="embed-responsive-item"
+                        >
+                        </iframe>
+                    </div>
+                    <div class="col-md-6">
+                        <form action="" class="container">
+                            <div class="form-group">
+                                <!--           label form="nombre" input name="nombre" esos son lo que conecta una etiqueta con la otra -->
+                                <label for="nombre">Nombre:</label>
+                                <input
+                                    type="text"
+                                    name="nombre"
+                                    class="form-control"
+                                    placeholder="Nombre..."
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="apellido">Apellido:</label>
+                                <input type="text" name="apellido" class="form-control" placeholder="Apellido..." />
+                            </div>
+                            <div class="miFormulario__locacion d-flex flex-wrap">
+                                <div class="form-group mx-1">
+                                    <label for="ciudad">Ciudad:</label>
+                                    <input type="text" name="ciudad" class="form-control" placeholder="Ciudad..." />
+                                </div>
+                                <div class="form-group mx-1">
+                                    <label for="pais">Pais</label>
+                                    <select class="form-control" name="pais" id="pais">
+                                        <option selected disabled value="">Eleccion...</option>
+                                        <option>Argentina</option>
+                                        <option>Brasil</option>
+                                        <option>Chile</option>
+                                        <option>Uruguay</option>
+                                    </select>
+                                </div>
+                                <div class="form-group mx-1">
+                                    <label for="codigoPostal"> Codigo Postal</label>
+                                    <input type="number" name="codigo postal..." class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Correo</label>
+                                <input type="mail" class="form-control" placeholder="tucorreo@mail.com" required />
+                            </div>
+                            <div class="form-group miFomulario__botones d-flex justify-content-end">
+                                <input type="reset" class="btn btn-secondary btn-lg mr-3" />
+                                <input type="submit" class="btn btn-primary btn-lg" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <footer class="miFooter bg-dark">
             <div class="container text-center py-5">
                 <div class="row">
                     <div class="col-md-4 text-center">
@@ -120,8 +142,8 @@
                 </div>
             </div>
         </footer>
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-	</body>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </body>
 </html>
